@@ -1,0 +1,14 @@
+{
+    "addresses": [
+        {
+            "address": "https://example.com",
+            "name": "example frontend",
+            "last_status": null
+        },
+        {
+            "address": "https://google.com",
+            "name": "google landing page",
+            "last_status": null
+        }
+    ]
+}
