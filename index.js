@@ -36,7 +36,7 @@ async function checkStatus() {
 function report() {
     tmpdata = read()
     tmpdate = new Date()
-    console.log(`\n- Report ${tmpdate.getDate()}.${tmpdate.getMonth() + 1}.${tmpdate.getFullYear()} at ${tmpdate.getHours()}:${tmpdate.getMinutes()} -------------------------------`)
+    console.log(`\n- Report ${tmpdate.getDate()}.${tmpdate.getMonth() + 1}.${tmpdate.getFullYear()} at ${tmpdate.getHours()}:${tmpdate.getMinutes() <= 9 ? '0' + tmpdate.getMinutes() : tmpdate.getMinutes()} -------------------------------`)
     for(var i = 0; i < tmpdata.length; i++) {
         console.log(`   ${tmpdata[i].address}: ${tmpdata[i].last_status} ${tmpdata[i].last_status == 200 ? '(OK)' : '(Internal Server Error)'}`)
     }
