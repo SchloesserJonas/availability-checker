@@ -6,7 +6,7 @@ If the service is offline it sends a push notification to your devices using Pus
 > **⚠️ DISCLAIMER**\
 > Causing constantly repeating traffic of this kind might get flagged as an attack.\
 > Please make sure you have the permission of the service admin to monitor the service!\
-> I am not responsible for any damange caused by using the script!
+> I am not responsible for any damage caused by using the script!
 
 ## Setup
 ### Install dependencies
